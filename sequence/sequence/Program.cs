@@ -5,7 +5,7 @@ using System.Globalization;
 namespace sequense
 {
     //1. В консоль ввести последовательность целых чисел. 
-    //Определить является ли эта последовательность возрастающей
+    //Определить является ли эта последовательность возрастающе
     class Program
     {
         static void Main(string[] args)
