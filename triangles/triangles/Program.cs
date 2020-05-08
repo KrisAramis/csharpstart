@@ -19,13 +19,13 @@ namespace triangles
             int b1 = b * b;
             int c1 = c * c;
             if (a == b && b == c && a == c)
-                Console.WriteLine("Triange is равносторонний");
+                Console.WriteLine("Треугольник равносторонний");
             else if ((a == maxvalue) && (a1 == (b1 + c1)))
-                Console.WriteLine("Triangle is прямоугольный");
+                Console.WriteLine("Треугольник прямоугольный");
             else if ((b == maxvalue) && (b1 == (a1 + c1)))
-                Console.WriteLine("Triangle is прямоугольный");
+                Console.WriteLine("Треугольник прямоугольный");
             else if ((c == maxvalue) && (c1 == (a1 + b1)))
-                Console.WriteLine("Triange is прямоугольный");
+                Console.WriteLine("Треугольник прямоугольный");
             else if (a == b || b == c || a == c)
                 Console.WriteLine("Triange is равнобедренный");
         }
